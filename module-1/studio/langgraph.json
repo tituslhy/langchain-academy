@@ -5,8 +5,10 @@
     "router": "./router.py:graph",
     "agent": "./agent.py:graph"
   },
-  "env": "./.env",
-  "python_version": "3.11",
+  "env": [
+    "OPENAI_API_KEY"
+  ],
+  "python_version": "3.12",
   "dependencies": [
     "."
   ]
